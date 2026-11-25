@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    El servicio web de la práctica corre en la computadora (http://, sin certificado TLS).
+    Android bloquea el HTTP sin cifrar por defecto, así que aquí se permite.
+    En una app publicada el servicio iría por HTTPS y este permiso se quitaría.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Conexión con el proyecto de Firebase (Actividad 2).
+    Son los mismos datos que trae google-services.json; el SDK de Firebase los lee de aquí al arrancar.
+    Se llenan solos con:   python3 configurar_firebase.py ruta/al/google-services.json
+    o a mano, copiando del json:
+      project_id      <- project_info.project_id
+      google_app_id   <- client[0].client_info.mobilesdk_app_id   (se ve como 1:1234567890:android:abc123)
+      google_api_key  <- client[0].api_key[0].current_key
+-->
+<resources>
+    <string name="project_id" translatable="false">PEGA_AQUI_TU_PROJECT_ID</string>
+    <string name="google_app_id" translatable="false">PEGA_AQUI_EL_mobilesdk_app_id</string>
+    <string name="google_api_key" translatable="false">PEGA_AQUI_LA_current_key</string>
+</resources>

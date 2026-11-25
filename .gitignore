@@ -1,0 +1,22 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Servicio web (Python): caché y base de datos local
+servicio_web/__pycache__/
+servicio_web/*.db
+# Zips originales de los compañeros (ya integrados como módulos)
+_originales_equipo/
+# Sesiones y bitácoras del compilador de Kotlin
+.kotlin/
